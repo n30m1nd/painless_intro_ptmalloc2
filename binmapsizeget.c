@@ -6,7 +6,7 @@
 #define BINMAPSIZE       (NBINS / BITSPERMAP)
 
 // This program give us a visual representation of 
-// the sizes use by malloc.c 
+// the sizes used by the bins in malloc.c 
 // Javier Jimenez @ SensePost 2017
 
 int main(){

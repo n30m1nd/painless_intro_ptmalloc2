@@ -10,5 +10,6 @@ int main(){
  smallestchunk1 = malloc(1);
  smallestchunk2 = malloc(1);
  printf("Smallchunk1 at %p, Smallchunk2 at %p\n", smallestchunk1, smallestchunk2);
+ printf("Distance from 1 to 2 (ie size): %d\n", smallestchunk2-smallestchunk1);
  return 0;
 }

@@ -7,7 +7,7 @@
 // Javier Jimenez @ SensePost 2017
 
 int main(){
- void *large1,*large2, *large3; 
+ void *large1,*large2, *large3, *large4; 
 
  printf("[info] allocating 4 large chunks (+0x400 bytes each)\n");
  large1 = malloc(0x3f0);
